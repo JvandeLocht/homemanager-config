@@ -17,6 +17,7 @@
     nvf
     pyenv
     typst
+    htop
   ];
 
   home.sessionVariables = {
