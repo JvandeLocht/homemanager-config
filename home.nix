@@ -16,6 +16,7 @@
   home.packages = with pkgs; [
     nvf
     pyenv
+    typst
   ];
 
   home.sessionVariables = {
