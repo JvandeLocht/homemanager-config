@@ -15,9 +15,10 @@
 
   home.packages = with pkgs; [
     nvf
-    pyenv
     typst
     htop
+
+    python3Full
   ];
 
   home.sessionVariables = {
