@@ -30,14 +30,6 @@ in {
         # rest of config here
       };
     };
-    # programs.zsh = {
-    #   initExtra = ''
-    #     if [ -z "$TMUX" ]
-    #     then
-    #         tmux new-session -A -s main
-    #     fi
-    #   '';
-    # };
 
     programs.tmux = {
       enable = true;

@@ -20,6 +20,12 @@
         enableZshIntegration = true;
       };
       zsh = {
+        initExtra = ''
+          if [ -z "$TMUX" ]
+          then
+              tmux new-session -A -s main
+          fi
+        '';
         enable = true;
         autosuggestion.enable = true;
         syntaxHighlighting.enable = true;
