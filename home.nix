@@ -20,6 +20,8 @@
     htop
 
     python3Full
+    devenv
+
     peazip
   ];
 
