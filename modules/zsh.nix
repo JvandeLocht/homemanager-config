@@ -32,6 +32,7 @@
         shellAliases = {
           ns = "home-manager switch -b backup --flake /home/jan/.config/home-manager";
           t = "tmux";
+          py = "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe python";
           v = "nvim";
           y = "yazi";
         };
