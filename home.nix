@@ -20,6 +20,7 @@
     htop
 
     python3Full
+    peazip
   ];
 
   home.sessionVariables = {
